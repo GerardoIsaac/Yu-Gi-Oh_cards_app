@@ -1,0 +1,43 @@
+.home {
+  min-height: 85vh;
+  background-color: lightgray;
+}
+
+/* Tarjetas */
+.card {
+  width: 20rem;
+}
+
+.card-img {
+  height: 18rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card-title {
+  position: relative;
+  height: 4rem;
+}
+
+.card-title::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  background-color: lightgray;
+  height: 2px;
+  width: 90%;
+}
+
+.card-description {
+  height: 8rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+/* Para los botones de selección */
+.page-link:focus {
+  box-shadow: none !important;
+}
