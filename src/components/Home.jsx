@@ -44,12 +44,10 @@ const Home = () => {
 
   return (
     <div className='home container-fluid py-5'>
-      <div className='row pb-4 px-5'>
+      <div className='row pb-4 mx-5'>
         <div className='col'>
           <ViewSelector view={view} setView={setView} />
-        </div>
 
-        <div className='col'>
           <CardsPerPageSelector
             cardsPerPage={cardsPerPage}
             setCardsPerPage={setCardsPerPage}

@@ -3,9 +3,9 @@ const CardsPerPageSelector = ({ cardsPerPage, setCardsPerPage }) => {
 
   return (
     <>
-      <p className='fs-5 text-end'>Cards per page:</p>
+      <p className='fs-5 text-start mt-3'>Cards per page:</p>
 
-      <ul className='pagination justify-content-end '>
+      <ul className='pagination justify-content-start '>
         {options.map(option => (
           <li key={option} className='page-item'>
             <button
