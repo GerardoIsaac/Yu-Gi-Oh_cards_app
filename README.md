@@ -1,6 +1,6 @@
 # Yu-gi-Oh Cards
 
-Esta página fue creada con React.js y empaquetada con Vite y muestra una lista de cartas de Yu-Gi-Oh que se obtienen de la API YGOProDeck, cada carta contiene información como el nombre, tipo de carta, imágen, descripción, y precio.
+Esta página fue creada con [React](https://reactjs.org/) y empaquetada con [Vite](https://vitejs.dev/) y muestra una lista de cartas de Yu-Gi-Oh que se obtienen de la API [YGOProDeck](https://ygoprodeck.com/api-guide/), cada carta contiene información como el nombre, tipo de carta, imágen, descripción, y precio.
 
 ## Ejecutar localmente
 
@@ -34,8 +34,8 @@ Abre una ventana de tu navegador e ingresa a: <http://localhost:5173/> para ver 
 
 ## Stack de tecnologías
 
-React, Redux, Bootstrap
+[React](https://reactjs.org/), [Redux](https://redux-toolkit.js.org/), [Bootstrap](https://getbootstrap.com/)
 
 ## Autor
 
-- [GerardoIsaac](https://www.github.com/gerardoisaac)
+- [Gerardo Castañeda](https://www.github.com/gerardoisaac)
