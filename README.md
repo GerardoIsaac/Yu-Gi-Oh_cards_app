@@ -30,7 +30,7 @@ Inicia el servidor
   npm run dev
 ```
 
-Abre una ventana de tu navegador e ingresa a: <http://localhost:5173/> to view the app.
+Abre una ventana de tu navegador e ingresa a: <http://localhost:5173/> para ver la página.
 
 ## Stack de tecnologías
 
